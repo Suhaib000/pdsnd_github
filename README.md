@@ -1,5 +1,5 @@
 
-# Udacity Data Science Nanodegree - Bike Share Project
+# Udacity Data Science Nanodegree - Bike Share Data Analysis Project 
 
 
 ## Date created
