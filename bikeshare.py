@@ -13,9 +13,11 @@ def get_city_input():
         if city in CITY_DATA:
             return city
         else:
-            print("Invalid input. Please choose from Chicago, New York, or Washington.")
+            print("Invalid input. ")
+            print("Make sure you select from Chicago, New York, or Washington.")
 
 def get_month_input():
+    # to get month from input
     months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'All']
     while True:
         month = input("Please select a month (Jan, Feb, Mar, Apr, May, Jun) or 'all' for all months: ").title()
